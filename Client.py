@@ -7,14 +7,6 @@ import xmpp
 import threading
 import time
 
-# <stream:stream xmlns="jabber:client" version="1.0" xmlns:stream="http://etherx.jabber.org/streams" to="alumchat.fun" xml:lang="en"
-# iq = Iq()
-# iq['to'] = 'alumchat.fun'
-# iq['type'] = 'set'
-# print(iq)
-
-#slixmpp.ClientXMPP()
-
 class Client:
     def __init__(self, user:str , password:str) -> None:
         self.jid = xmpp.JID(user)

@@ -93,12 +93,3 @@ while True:
     print('THANKS... BYE')
     quit()
 
-
-# client = SLIXClient(user, password, 5, contact='HI')
-# client.connect()
-# client.process(forever=False)
-
-#<presence xmlns="jabber:client" id="a800b23c-0907-4590-9a58-45a98b04b1d4">
-#  <status>General Kenobi</status>
-#  <c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="https://gajim.org" ver="gaU+JtTdyQdh2BDfOLnJp+DyQd8=" />
-#</presence>
