@@ -143,7 +143,6 @@ class SLIXClient(slixmpp.ClientXMPP):
             msg.reply(reply).send()
         if self.option == 10:
             pres = self.Presence()
-            pres.set_show('away')
             pres['status'] = self.newStatus
             print('UPDATING STATUS TO:', self.newStatus)
             pres.send()
