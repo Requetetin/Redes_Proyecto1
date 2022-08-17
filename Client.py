@@ -85,7 +85,10 @@ class SLIXClient(slixmpp.ClientXMPP):
             iq.set_query('jabber:iq:register')
             iq['register']['remove'] = True
 
+            
             await iq.send()
+            self.disconnect()
+            print('DELETED SUCCESSFULLY')
         if self.option == 5:
             users = self.client_roster
             for user in users:
