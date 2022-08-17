@@ -56,3 +56,19 @@ xmpppy
 
 12. Archivos
   ---
+
+## Presentacion
+### Caracteristicas
+Las caracteristicas implementadas estan descritas anteriormente.
+Mensaje grupal, notificaciones y archivos no se puedieron implementar.
+Otras de las caracteristicas, como lo es el mensaje de presencia, realizan su trabajo, pero no siempre se ve reflejado.
+
+### Dificultades
+Fue un proyecto complicado, porque las librerias no tenian documentacion suficiente.
+Lo empeze a trabajar en JS, pero resulto con varios problemas, por lo que decidi pasarme a Python.
+Por un momento, tambien pense en realizarlo sin libreria en C++, pero por falta de conocimiento al inicio del proyecto, decidi mejor irme a algo mas seguro.
+
+### Lecciones
+Una vez comprendi bien el proceso de coneccion, hubiera querido realizar todo de mejor manera. Creo que la libreria me limito hasta cierto punto, porque habian funcionalidades para las que conocia como debia ser armada la stanza, pero por no tener suficiente documentacion, costo mas de lo esperado.
+A parte, aprendi mucho sobre autentificacion SASL, porque una de las librerias utilizaba este tipo, y no lograba realizar la autenticacion por este metodo.
+A pesar de esto, me parecio muy interesante el protocolo, por su uso en diferentes aplicaciones.
